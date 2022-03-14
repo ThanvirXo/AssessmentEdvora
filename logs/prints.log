@@ -1,0 +1,9 @@
+16:27:00.041 [main] FATAL project.login - Test Success
+16:27:02.050 [main] INFO  project.login - test case number-4
+16:27:02.050 [main] INFO  project.login - Actual result: user not able to change password and screenshot has been attached in reports
+16:27:08.905 [main] INFO  project.logout - test case number-5
+16:27:09.159 [main] INFO  project.logout - url is hit
+16:27:09.281 [main] INFO  project.logout - Expected result: User is able to logout
+16:27:09.489 [main] INFO  project.logout - User is logged in
+16:27:11.553 [main] INFO  project.logout - Actual result: User is able to logout
+16:27:11.553 [main] FATAL project.logout - Test success

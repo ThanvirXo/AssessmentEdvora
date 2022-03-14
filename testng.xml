@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="pageObjects.Listeners"/>
+</listeners>
+  <test thread-count="5" name="Registering">
+	<classes>
+		<class name="project.registration"/>
+</classes>
+  </test> <!-- Test -->
+ <test thread-count="5" name="Logging">
+	<classes>
+		<class name="project.login"/>
+</classes>
+  </test>
+  <!-- Test -->
+ <test thread-count="5" name="LogOut">
+	<classes>
+		<class name="project.logout"/>
+</classes>
+  </test>
+</suite> <!-- Suite -->
